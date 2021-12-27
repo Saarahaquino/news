@@ -1,0 +1,94 @@
+*{
+    margin-top: 0;
+}
+html{
+    background-color:var(--body-bg-color);
+}
+
+:root {
+
+    --body-bg-color: #121214;
+  
+    --text-color: #e1e1e6;
+  
+    
+    --form-color: #a8a8a8;
+  
+    --bg-button-color: #8257e5;
+  
+  }
+
+ h2,h3,p{
+  color: var(--text-color);
+  margin-left: 36px;
+
+ }
+ 
+.logo{
+    height: 100px;
+    width:350px ;
+    margin-top: 50px;
+    margin-bottom: 92px;
+}
+
+.veio{
+    position: absolute;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 388px;
+    width: 580px;
+    object-position: 80% 100%;
+}
+
+label{
+    color: var(--form-color);
+    margin-left: 0px;
+    font-family: spartan, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 36px;
+}
+input{
+    width: 864px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-left: var(--title-color )6px solid;
+    margin-left: 0;
+    margin-top: 20px;
+    position: absolute;
+   margin-left: 36px;
+   font-size: 16px;
+   border-left: #04D361 6px solid;
+   
+}
+h2{
+  color: #04D361;
+}
+
+p{
+    color: #a8a8a8;
+}
+ button{
+     background-color: #8257e5;
+     position: absolute;
+     margin-top: 19px;
+     margin-left: 900px;
+     width: 55px;
+     height: 45px;
+ }
+
+ #link{
+  color: #8257e5;
+  margin-left: 36px;
+  margin-top: 65px;
+  padding: 25px;
+  text-decoration: none;
+ }
+
+ .seta{
+     position: relative;
+      top: 7px;
+ }
